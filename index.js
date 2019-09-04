@@ -9,7 +9,6 @@ function createNestedArr(row,col) {
     }
     return result;
 }
-// console.log(createNestedArr(5,4));
 function checkAllVowelsArr(arr) {
     console.log(arr);
     const vowels = ['A', 'I', 'U', 'E', 'O'];
