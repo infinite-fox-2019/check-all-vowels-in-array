@@ -1,4 +1,17 @@
+function createNestedArr(row,col) {
+    const alhpabets = ['A','B','C','D','E','F','G','H','I','J','K','L','M','N','O','P','Q','R','S','T','U','V','W','X','Y','Z'];
+    let result = [];
+    for (let i = 0; i < row; i++) {
+        result.push([]);
+        for (let j = 0; j < col; j++) {
+            result[i].push(alhpabets[Math.floor(Math.random() * (26 - 0) ) + 0]);
+        }
+    }
+    return result;
+}
+// console.log(createNestedArr(5,4));
 function checkAllVowelsArr(arr) {
+    console.log(arr);
     const vowels = ['A', 'I', 'U', 'E', 'O'];
     let hasil = 0;
     let isVowel = false;
@@ -24,21 +37,6 @@ function checkAllVowelsArr(arr) {
     }
     return hasil;
 }
-let arr1 = 
-[
-    ['A','X','C','Y'],
-    ['E','O','O','S'],
-    ['I','U','I','N'],
-    ['M','Y','O','E'],
-    ['P','D','A','I']
-];
-console.log(checkAllVowelsArr(arr1));
-// 3
-let arr2 =
-[
-    ['A','I','B','S','D'],
-    ['U','E','C','T','Y'],
-    ['O','A','T','B','J']
-];
-console.log(checkAllVowelsArr(arr2));
-// 2
+var arr = createNestedArr(10,10);
+console.log(checkAllVowelsArr(arr));
+
