@@ -11,7 +11,7 @@ function checkAllVowels (row, col) {
         }
     }
     console.log(array);
-    return `jumlah huruf vokal pada block 2x2 sebanyak : ${jmlVokal}`;
+    return `jumlah full huruf vokal pada block 2x2 sebanyak : ${jmlVokal}`;
 };
 
 function checkVokal (huruf) {
