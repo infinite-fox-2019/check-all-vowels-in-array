@@ -40,10 +40,10 @@ let dummy = [
 
 
 // TEST CASE
-console.log(dummy)
-console.log(blockGenerator(5, 4))
-console.log(blockGenerator(7, 3))
-console.log(blockGenerator(4, 6))
+// console.log(dummy)
+// console.log(blockGenerator(5, 4))
+// console.log(blockGenerator(7, 3))
+// console.log(blockGenerator(4, 6))
 console.log(checkVowelBlock(dummy))
 console.log(checkVowelBlock(blockGenerator(5, 4)))
 console.log(checkVowelBlock(blockGenerator(7, 3)))
