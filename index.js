@@ -15,7 +15,7 @@ function checkAllVowels (row, col) {
 };
 
 function checkVokal (huruf) {
-    kamus = 'AIUEO';
+    let kamus = 'AIUEO';
     for (let i = 0; i < kamus.length; i++) {
         if (huruf === kamus[i]) {
             return true;
