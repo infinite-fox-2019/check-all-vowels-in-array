@@ -25,7 +25,6 @@ const generateData = (row, col) => {
 
 const checkAllVowels = (row, col) => {
   const data = generateData(row, col)
-  console.log(data)
 
   let result = 0
 
